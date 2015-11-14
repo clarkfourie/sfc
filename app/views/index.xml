@@ -1,0 +1,20 @@
+
+<Alloy>
+      <!-- Instance of the model -->
+      <Collection src="sfcList" />
+      <Window class="container">
+            <!-- Specifies the collection singleton or instance to bind to the table. -->
+            <TableView id="tbSfcList" dataCollection="sfcList">
+                  <!-- rowId="{id_toDoList} is a custom property in order to have a reference to the primary key of the records -->
+                  <TableViewRow id="listRow" rowId="{id_sfcList}" isCorrect="{isCorrect}">
+                        <View id="componentView">
+                             <!-- text="{value} is the value of the record of the database -->
+                        <Label id="lblValue" text="{value}"></Label>
+                         <Switch id="bshSelect" value="{hasCheck}" />
+                        </View>
+                  </TableViewRow>
+            </TableView>
+      </Window>
+</Alloy>
+
+<!--onChange="outputState"-->
