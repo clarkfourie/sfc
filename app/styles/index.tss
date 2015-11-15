@@ -1,11 +1,54 @@
 
 ".container": {
       backgroundColor:"white"
-    },
+},
 
 "Label": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+  
+    color: 'gray',
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    backgroundColor: 'transparent',
+    font: {
+        fontFamily:'Helvetica',
+        fontSize: '12dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+},
+
+"TextField":{
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: 'gray',
+    textAlign:Titanium.UI.TEXT_ALIGNMENT_LEFT,
+    clearOnEdit:true
+},
+
+"Button": {
 	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+    height: Ti.UI.SIZE,
+},
+
+"#banner":{
+    backgroundColor: "#072550",
+    height:50,
+    top:0
+},
+
+
+"#bannerimage": {
+   image:'/state2.png',
+   left:10
+},
+
+"#tfUsern":{
+	hintText: "USERNAME"
+},
+
+"#tfPassw":{
+	hintText: "PASSWORD"
 }
+
 

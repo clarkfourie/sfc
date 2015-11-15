@@ -1,17 +1,30 @@
-<Alloy>
-	<TabGroup>
-		<!-- Explicit Window declaration -->
-		<Tab id="tab1">
-			<Window id="win1">
-				<Label>Label 1</Label>
-				<Label>Label 2</Label>
-				<Label platform="ios">Label 3</Label>
-				<Label>Label 4</Label>
-				<Label>Label 5</Label>
-			</Window>
-		</Tab>
-
-		<!-- Tab included via <Require> tag -->
-		<Require src="tabView"/>
-	</TabGroup>
-</Alloy>State"-->
+    <Alloy>
+        <TabGroup backgroundColor="white" >
+        	
+            <Tab id="tbLogin" title="Login"  icon="KS_nav_views.png">
+                <Window id="wLogin" title="Login Window">
+                	
+                	<View id="banner" layout="verticle">
+        				<ImageView id="bannerimage" /> 
+        				<Label id="logotext"> My Banner Text </Label>
+    				</View>
+    				
+    				<View>
+                    	<TextField id="tfUsern"></TextField>
+                   		<TextField id="tfPassw"></TextField>
+                   		<Button id="btnLogin" >Login</Button>
+                   </View>
+                   
+                </Window>
+            </Tab>
+            
+            <Tab id="tab2" title="Tab 2" icon="KS_nav_views.png">
+                <Window id="win2" title="Tab 2">
+                	
+                    <Label id="label2" color="#999">I am Window 2</Label>
+                    
+                </Window>
+            </Tab>
+            <!-- Use the Require tag to include external Ti.UI.Tab views -->
+        </TabGroup>
+    </Alloy>
