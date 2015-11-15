@@ -24,3 +24,44 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 */
+
+"Window": {
+	backgroundColor: '#bad4f6'
+},
+
+"Label": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+  
+    color: 'gray',
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    backgroundColor: 'transparent',
+    font: {
+        fontFamily:'Lucida Sans Unicode',
+        fontSize: '12dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+},
+
+"TextField":{
+	width:300,
+    height:40,
+    color:'#336699',
+    textAlign:Titanium.UI.TEXT_ALIGNMENT_LEFT,
+    keyboardToolbarColor : '#999',
+    keyboardToolbarHeight : 40,
+    font: {
+        fontFamily:'Lucida Sans Unicode',
+        fontSize: '12dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+},
+
+
+"Button": {
+	width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    backgroundColor: '#32687B'
+}

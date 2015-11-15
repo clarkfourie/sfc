@@ -1,54 +1,38 @@
-
-".container": {
-      backgroundColor:"white"
+ 
+".container" : {
+	backgroundColor: "#072550"
 },
-
-"Label": {
-    width: Ti.UI.SIZE,
-    height: Ti.UI.SIZE,
-  
-    color: 'gray',
-    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
-    backgroundColor: 'transparent',
-    font: {
-        fontFamily:'Helvetica',
-        fontSize: '12dp',
-        fontStyle: 'normal',
-        fontWeight: 'normal'
-    }
-},
-
-"TextField":{
-    width: Ti.UI.SIZE,
-    height: Ti.UI.SIZE,
-    color: 'gray',
-    textAlign:Titanium.UI.TEXT_ALIGNMENT_LEFT,
-    clearOnEdit:true
-},
-
-"Button": {
-	width: Ti.UI.SIZE,
-    height: Ti.UI.SIZE,
-},
-
-"#banner":{
-    backgroundColor: "#072550",
-    height:50,
-    top:0
-},
-
 
 "#bannerimage": {
    image:'/state2.png',
    left:10
 },
 
-"#tfUsern":{
-	hintText: "USERNAME"
+"#tfUsern": {
+    top:200,
+    placeholder: 'Username',
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
 },
 
-"#tfPassw":{
-	hintText: "PASSWORD"
-}
+"#tfPassw": {
+    top:250,
+    placeholder: 'Password',
+    passwordMask:true,
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+},
 
+"#btnLogin": {
+	top: 300,
+    title:'Login',
+    borderRadius:1,
+    font:{
+    	fontFamily:'Arial',
+    	fontWeight:'bold',
+    	fontSize:14
+    }	
+}
 

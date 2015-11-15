@@ -1,20 +1,24 @@
+   <Alloy>
+   	<Window>
+	<View class="container">
+        <ImageView id="bannerimage" /> 				
+        <TextField id="tfUsern"></TextField>
+        <TextField id="tfPassw"></TextField>
+        <Button id="btnLogin" ></Button>
+	</View>
+	</Window>
+</Alloy>
+   
+   
+   <!-- 
     <Alloy>
         <TabGroup backgroundColor="white" >
         	
             <Tab id="tbLogin" title="Login"  icon="KS_nav_views.png">
-                <Window id="wLogin" title="Login Window">
-                	
-                	<View id="banner" layout="verticle">
-        				<ImageView id="bannerimage" /> 
-        				<Label id="logotext"> My Banner Text </Label>
-    				</View>
-    				
-    				<View>
-                    	<TextField id="tfUsern"></TextField>
-                   		<TextField id="tfPassw"></TextField>
-                   		<Button id="btnLogin" >Login</Button>
-                   </View>
-                   
+                <Window id="window1" title="window 1">
+                	<View id="view1">
+                		
+                	</View>
                 </Window>
             </Tab>
             
@@ -25,6 +29,6 @@
                     
                 </Window>
             </Tab>
-            <!-- Use the Require tag to include external Ti.UI.Tab views -->
+
         </TabGroup>
-    </Alloy>
+    </Alloy> -->
