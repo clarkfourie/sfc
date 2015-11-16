@@ -48,9 +48,9 @@ overrode the settings with other TSS, XML, or JS settings:
 	width:300,
     height:40,
     color:'#336699',
+    keyboardType:Titanium.UI.KEYBOARD_DEFAULT,
+    returnKeyType:Titanium.UI.RETURNKEY_DEFAULT,
     textAlign:Titanium.UI.TEXT_ALIGNMENT_LEFT,
-    keyboardToolbarColor : '#999',
-    keyboardToolbarHeight : 40,
     font: {
         fontFamily:'Lucida Sans Unicode',
         fontSize: '12dp',

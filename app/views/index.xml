@@ -1,11 +1,11 @@
-   <Alloy>
-   	<Window>
-	<View class="container">
-        <ImageView id="bannerimage" /> 				
-        <TextField id="tfUsern"></TextField>
-        <TextField id="tfPassw"></TextField>
-        <Button id="btnLogin" ></Button>
-	</View>
+   <Alloy> 
+   	<Window class="container">
+		<View>
+	        <ImageView id="bannerimage" /> 				
+	        <TextField id="tfUsern"/>
+	        <TextField id="tfPassw"/>
+	        <Button id="btnLogin" onClick="submit"/>
+		</View>
 	</Window>
 </Alloy>
    
