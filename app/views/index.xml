@@ -4,7 +4,7 @@
 	        <ImageView id="bannerimage" /> 				
 	        <TextField id="tfUsern"/>
 	        <TextField id="tfPassw"/>
-	        <Button id="btnLogin" onClick="submit"/>
+	        <Button id="btnLogin" onClick="loginSubmit"/>
 		</View>
 	</Window>
 </Alloy>
